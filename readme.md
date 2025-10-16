@@ -18,7 +18,7 @@ A simple and efficient task tracking application built with modern frontend tech
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/task-tracker.git
+git clone https://github.com/phuong-nam-dev/Task-Tracker
 cd task-tracker
 npm install
 ```
