@@ -1,0 +1,15 @@
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+li svg {
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+}
+
+li div {
+  flex: 1;
+}

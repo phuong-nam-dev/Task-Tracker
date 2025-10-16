@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; gap: 12px">
+      <div>Task Tracker</div>
+      <input
+        type="text"
+        placeholder="Start writing and press enter to create task"
+        id="input"
+      />
+      <ul id="list" style="list-style: none; padding: 0; margin: 0"></ul>
+    </div>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
